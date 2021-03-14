@@ -93,14 +93,6 @@ Whoa! How is an empty method generating the same behavior as when we were callin
 
 So is explicit or implicit better? Typically, you will find that you want to utilize the implicit workflow in your day to day coding practice. The rationale is quite practical. Imagine that you are taking over a legacy Rails project. As you are getting acclimated to the code, would you prefer that the previous dev followed a standard naming process, or would you rather be forced to look through each controller to see how the controller actions were mapped to the views? Rails has always had the goal of making the development process as efficient as possible, which is why it is typically best to follow these types of implicit procedures. With that being said, it is important to understand how the views are mapped to the controller, which is why we also walked through the explicit process.
 
-## Summary
-
-In summary, you should now have a firm understanding of how to implement basic routing in your application for static pages. As a review, the process is below:
-
-1. The server receives an HTTP request from the client
-2. The application processes the request through the `routes.rb` file
-3. The route file maps the request through whichever controller method is called
-4. The controller then responds with the view that belongs to that specific method and delivers it to the client
 
 ## PhantomJS Errors
 
